@@ -1,0 +1,60 @@
+{
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.tabSize": 2,
+    "editor.comments.insertSpace": false,
+    "editor.fontSize": 18,
+    "github.copilot.chat.languageContext.fix.typescript.enabled": true,
+    "github.copilot.customInstructions": "Write clean, readable, maintainable code with clear intent. Use meaningful names; keep functions small and focused. Prefer simple, pragmatic solutions over unnecessary abstraction or premature optimization. Minimize comments—let the code explain itself. Follow SOLID principles where they add clarity. Use strict TypeScript when typing helps readability and prevents bugs, but avoid type clutter. Favor expressive, joyful code that humans enjoy reading and evolving.",
+    "github.copilot.chat.reviewSelection.instructions": [
+        {
+        "text": "Prioritize security vulnerabilities, performance bottlenecks, potential bugs, and adherence to clean code principles. Suggest fixes with minimal changes. Highlight trade-offs clearly."
+        }
+    ],
+
+    "github.copilot.chat.commitMessageGeneration.instructions": [
+        {
+        "text": "Always use Conventional Commits format: type(scope): short imperative description. Types: feat, fix, refactor, docs, style, test, chore, perf, ci, build, revert. Keep subject <50 chars. Add body when needed for context/breaking changes."
+        }
+    ],
+
+    "github.copilot.chat.pullRequestDescriptionGeneration.instructions": [
+        {
+        "text": "Generate clear PR descriptions with: 1) One-line summary, 2) Bullet list of key changes, 3) Breaking changes section (if any), 4) Testing/verification notes, 5) Related issues/links. Use markdown formatting."
+        }
+    ],
+
+    "github.copilot.chat.codeGeneration.useInstructionFiles": true,
+
+    "chat.instructionsFilesLocations": {
+        ".github/instructions": true,
+        ".github/copilot": true
+    },
+    "chat.promptFilesLocations": {
+        ".github/prompts": true
+    },
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": false,
+        "scminput": false,
+        "python": true,
+        "typescript": true
+    },
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "explorer.confirmDelete": false,
+    "window.zoomPerWindow": false,
+    "window.zoomLevel": 1.5,
+    "claudeCode.preferredLocation": "panel",
+    "workbench.colorTheme": "Visual Studio Dark",
+    "zenMode.hideLineNumbers": false,
+    "zenMode.centerLayout": false,
+    "chat.viewSessions.orientation": "stacked",
+    "files.autoSave": "onFocusChange",
+    "editor.autoIndentOnPaste": true,
+    "editor.inertialScroll": true,
+    "editor.fontFamily": "Fira code, 'Droid Sans Mono', 'monospace', monospace",
+}
