@@ -141,7 +141,7 @@ LIGHT_GREEN="\[\033[1;32m\]"
 RESET_COLOR="\[\033[0;0m\]"
 BLUE_COLOR="\[\033[0;34m\]"
 
-export PS1="\\n\\n$RESET_COLOR$LIGHT_GREEN\$(date +%H:%M)$RESET_COLOR (\\u)$ \w$YELLOW \$(parse_git_branch)\\n$LIGHT_GREEN\$ $RESET_COLOR"
+export PS1="\\n\\n$RESET_COLOR$LIGHT_GREEN\$(date +%H:%M)$RESET_COLOR (\\u)$ \w$YELLOW \$(parse_git_branch)\\n$BLUE_COLOR\$ $RESET_COLOR"
 
 # add cls to clear screen
 alias cls='clear'
